@@ -1,0 +1,476 @@
+{
+  "id": "77276983-770c-492c-98c4-bace16804a15",
+  "version": "2.0",
+  "name": "MusicXmatch",
+  "url": "https://www.musixmatch.com",
+  "tests": [{
+    "id": "135b2881-4e1a-4ce9-9a3b-3af4ca566dfc",
+    "name": "Register button exists.",
+    "commands": [{
+      "id": "608c2fb5-b201-4d50-b0ce-b6455ad8c89e",
+      "comment": "",
+      "command": "open",
+      "target": "/es",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd1fc661-ee5d-4f69-8ef6-aff467267a7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1047",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a1977df-831c-4cb7-9ab8-06f6d381ce50",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Iniciar sesión",
+      "targets": [
+        ["linkText=Iniciar sesión", "linkText"],
+        ["css=.mui-nav__inline--custom", "css:finder"],
+        ["xpath=//a[contains(text(),'Iniciar sesión')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/es/sign-in')]", "xpath:href"],
+        ["xpath=//div[2]/nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6e1ebf6-d268-4096-b805-77134b92bb4e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registrarse",
+      "targets": [
+        ["linkText=Registrarse", "linkText"],
+        ["css=.mui-button--link", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrarse')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/div[2]/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/es/sign-up')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registrarse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "98b873fe-3ed4-4f8c-9430-ed7ba733e95e",
+    "name": "Log-in",
+    "commands": [{
+      "id": "ed2605c3-bf19-464b-94f5-583bbbce3b37",
+      "comment": "",
+      "command": "open",
+      "target": "/es",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e022d623-e456-45ff-a874-6e70c2217cca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b5091c7-356a-4fd2-afa2-b20e6d6704be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Iniciar sesión",
+      "targets": [
+        ["linkText=Iniciar sesión", "linkText"],
+        ["css=.mui-nav__inline--custom", "css:finder"],
+        ["xpath=//a[contains(text(),'Iniciar sesión')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/es/sign-in')]", "xpath:href"],
+        ["xpath=//div[2]/nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1047a0d7-6c64-4725-a0c0-60f2fe42193a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-input:nth-child(1)",
+      "targets": [
+        ["css=.mui-input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd7ffa7d-ea8a-4b15-a888-c33834b6be5a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input:nth-child(1)",
+      "targets": [
+        ["css=.mui-input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lfndogonzalez@gmail.com"
+    }, {
+      "id": "72e9edff-7158-49bc-a985-e7993a440d98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-input:nth-child(2)",
+      "targets": [
+        ["css=.mui-input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9152c291-b477-4ec1-8984-c8d6746d9318",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input:nth-child(2)",
+      "targets": [
+        ["css=.mui-input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Kinda147852"
+    }, {
+      "id": "5884ecf8-6acc-47cb-b7dd-ce19c9543e21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-button--orange",
+      "targets": [
+        ["css=.mui-button--orange", "css:finder"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "989c0245-0af5-4672-b7a6-d47285bb8359",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mxm-user-avatar",
+      "targets": [
+        ["css=.mxm-user-avatar", "css:finder"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div/span/button/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c053f591-b9fd-4dbb-94b6-3b046e6f5c1a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Perfil",
+      "targets": [
+        ["linkText=Perfil", "linkText"],
+        ["css=.mui-dropdown__menu-item:nth-child(1) > .mui-dropdown__menu-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Perfil')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div/span/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/es/profile/me')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Perfil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a19dede9-c9e1-4edc-9683-5ace084f198f",
+    "name": "Log-in Wrong credentials",
+    "commands": [{
+      "id": "937a336b-0a73-4493-98c7-b7afb6600e6d",
+      "comment": "",
+      "command": "open",
+      "target": "/es",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a484460-c7bd-412b-a658-c1f3c08b9d88",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1047",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "465b0ee8-1e89-4737-990a-fb11e01b576e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Iniciar sesión",
+      "targets": [
+        ["linkText=Iniciar sesión", "linkText"],
+        ["css=.mui-nav__inline--custom", "css:finder"],
+        ["xpath=//a[contains(text(),'Iniciar sesión')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/es/sign-in')]", "xpath:href"],
+        ["xpath=//div[2]/nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d0295b4-f2c6-44be-9587-4ac35a6505ae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Iniciar sesión",
+      "targets": [
+        ["linkText=Iniciar sesión", "linkText"],
+        ["css=.mui-nav__inline--custom", "css:finder"],
+        ["xpath=//a[contains(text(),'Iniciar sesión')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/es/sign-in')]", "xpath:href"],
+        ["xpath=//div[2]/nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f74884e7-985c-4395-a09f-983a4ab3b385",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Iniciar sesión",
+      "targets": [
+        ["linkText=Iniciar sesión", "linkText"],
+        ["css=.mui-nav__inline--active", "css:finder"],
+        ["xpath=//a[contains(text(),'Iniciar sesión')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/es/sign-in')]", "xpath:href"],
+        ["xpath=//div[2]/nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e8c2d66-7907-462b-bd03-2f54b3ec82ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-input:nth-child(1)",
+      "targets": [
+        ["css=.mui-input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "649a5cd6-6205-4d04-9aaf-dc115bd8c4ed",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input:nth-child(1)",
+      "targets": [
+        ["css=.mui-input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "uncorreo@gmai;.com"
+    }, {
+      "id": "09d24bb7-142f-4619-a4f3-ee05bfc9a09c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-input:nth-child(2)",
+      "targets": [
+        ["css=.mui-input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc56e5a8-3475-4215-a32f-ad7d99895909",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input:nth-child(2)",
+      "targets": [
+        ["css=.mui-input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "unacotnrsae"
+    }, {
+      "id": "bf96ed53-81a1-4fac-bc32-82886eb6f815",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-button--orange > .mui-button__label",
+      "targets": [
+        ["css=.mui-button--orange > .mui-button__label", "css:finder"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af75308f-1dd6-4756-a902-2ac41f15bdb9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9e38bcb6-6a72-4bf2-9c47-4cf3b9e2e1be",
+    "name": "Option to like songs",
+    "commands": [{
+      "id": "0ef9a3dc-9b17-475b-bc66-07a396de7063",
+      "comment": "",
+      "command": "open",
+      "target": "/es",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac07fb87-10f5-4b5b-acb7-5cb1297ac070",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e6c3b6e-b73c-4129-bce7-ecfc3ea7492e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Letras destacadas",
+      "targets": [
+        ["linkText=Letras destacadas", "linkText"],
+        ["css=.mui-nav__inline:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Letras destacadas')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/es/explore')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Letras destacadas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fe2cf26-87ff-4422-938c-043a77b0841e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.showPosition:nth-child(2) .media-card-title span",
+      "targets": [
+        ["css=.showPosition:nth-child(2) .media-card-title span", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/ul/li[2]/div/div[2]/div/h2/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div[2]/div/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Late Night Talking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5e58715-ecf2-4238-be80-a95b94abdb77",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fb30e64-680b-488c-93b3-e4a388ed3841",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-icon--heart2",
+      "targets": [
+        ["css=.mui-icon--heart2", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5df6291-688f-4526-b8cf-f353fbdc09d8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "06f72e9b-1d3b-4f4b-a56a-e7909bfcf715",
+    "name": "Delete account",
+    "commands": [{
+      "id": "57953a90-6267-4000-8eb5-5d82357ea552",
+      "comment": "",
+      "command": "open",
+      "target": "/es",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97c48ef5-aad2-434a-aea1-1a15f5a4dd03",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1047",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8c77b86-e6ae-4062-a468-efdfafbfe523",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mxm-user-avatar",
+      "targets": [
+        ["css=.mxm-user-avatar", "css:finder"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div/span/button/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d96ca358-25a2-44d8-adc7-8d1dd91f955b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Perfil",
+      "targets": [
+        ["linkText=Perfil", "linkText"],
+        ["css=.mui-dropdown__menu-item:nth-child(1) > .mui-dropdown__menu-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Perfil')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div/span/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/es/profile/me')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Perfil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e2a7bb7-de37-4d67-b074-984eea229a00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mxm-user__edit-profile-link-content",
+      "targets": [
+        ["css=.mxm-user__edit-profile-link-content", "css:finder"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div[2]/div[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Editar perfil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "391e82c3-fb5e-4703-9663-e4b1ac969bf0",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=5",
+      "targets": [
+        ["index=5"]
+      ],
+      "value": ""
+    }, {
+      "id": "29d17857-f9b9-425f-acf2-38fc57db1726",
+      "comment": "",
+      "command": "click",
+      "target": "css=.r-1loqt21:nth-child(3) > .css-1dbjc4n > .css-901oao",
+      "targets": [
+        ["css=.r-1loqt21:nth-child(3) > .css-1dbjc4n > .css-901oao", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[10]/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2967815-b503-4c7e-8840-3aecdc0aad79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.r-1loqt21:nth-child(2) > .css-1dbjc4n > .css-901oao",
+      "targets": [
+        ["css=.r-1loqt21:nth-child(2) > .css-1dbjc4n > .css-901oao", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8f28cb7-6d83-4ad0-a511-9f2b5d2a5409",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "37e5e8fa-6b24-4eff-bcaa-fa881884863e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.musixmatch.com/"],
+  "plugins": []
+}
